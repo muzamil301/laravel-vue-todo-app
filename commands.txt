@@ -1,0 +1,11 @@
+composer create-project laravel/laravel app "5.1.*"
+php artisan preset vue
+php artisan preset bootstrap
+npm install
+npm run dev
+
+npm install --save vue-router
+
+=>package
+laravel-vue-paginate 
+laravel-vue-paginate --save > to save in package json
